@@ -21,5 +21,22 @@
     <script src="{{ 'assets/jekyll-search/jekyll-search.min.js' | prepend: site.baseurl | prepend: site.url}}"></script>
     <script src="{{ 'scripts/app.js' | prepend: site.baseurl | prepend: site.url}}"></script>
   </body>
-
+  <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+          tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$', '$$'], ["\\[", "\\]"] ],
+            processEscapes: true
+          },
+          TeX: {
+            equationNumbers: {
+              autoNumber: 'AMS'
+            }
+          },
+          'HTML-CSS': {
+            imageFont: null
+          }
+        });
+    </script>
+  <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </html>
