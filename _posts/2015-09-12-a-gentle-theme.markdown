@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "A Gentle Theme"
-date:   2015-09-12 19:23:19
+date:   2016-09-12 19:23:19
 categories: Documentation
 ---
 A new material design utilising theme for your Jekyll blog. Built on [Material Design Lite](http://www.getmdl.io/).
 
-##<i class="material-icons">battery_charging_full</i> Batteries Included
+## <i class="material-icons">battery_charging_full</i> Batteries Included
 
 There are many cool features bundled with Paper such as:
 
